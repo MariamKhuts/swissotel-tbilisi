@@ -23,10 +23,20 @@
 .title-div { text-align: center;
              align-items: center;
              margin-top: 52px;
+             max-width: 1140px;
              
              }
 .title-div h1 {margin-bottom: 30px;
               font-size: 60px;}
 .title-div span {color: red;}
-.title-div h3 { font-size: 50px;}
+.title-div h3 { font-size: 50px;
+}
+.main-text-div {max-width: 1140px;
+                margin-top: 80px;
+                align-items: center;
+                text-align: center;
+                background-color: yellow;
+                font-family: "Poppins", sans-serif;
+                color: grey;
+            }
         
