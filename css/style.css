@@ -1,0 +1,19 @@
+.header-div {display: flex;
+            background-color:ffffff;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px;
+            border-style: solid;
+        }
+.list {display: flex;
+       column-gap:20px;
+       text-align: center;
+       font-weight: 500;   
+    }
+.list li {color: black;}
+
+    a:hover {
+        
+        font-size: 20px;
+      }
+.active {color: red;}
