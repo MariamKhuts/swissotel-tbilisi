@@ -5,6 +5,7 @@
             align-items: center;
             border: 1px;
             border-style: solid;
+            
         }
 .list {display: flex;
        column-gap:20px;
@@ -17,12 +18,15 @@
             }
     a:hover { font-size: 20px;
             }
-.header { position: fixed;
+header { position: fixed;
         z-index: 10;
+        width: 100%;
+        top: 0;
+        background-color: white;
         }
 .title-div { text-align: center;
              align-items: center;
-             margin-top: 52px;
+             margin-top: 110px;
              max-width: 1140px;
              
              }
@@ -31,12 +35,24 @@
 .title-div span {color: red;}
 .title-div h3 { font-size: 50px;
 }
-.main-text-div {max-width: 1140px;
-                margin-top: 80px;
+.main-text-div {max-width: 740px;
+                margin-top: 60px;
                 align-items: center;
                 text-align: center;
-                background-color: yellow;
-                font-family: "Poppins", sans-serif;
-                color: grey;
-            }
-        
+                position: relative;
+                background-color: white;
+                border: 1px;
+                border-radius: 10%;   
+                ;            
+               }
+ .main-photo {width: 100%;      
+             }
+.main-text {font-size: 20px;
+            font-family: "Open Sans", sans-serif;
+            color: black;
+            
+          }
+.image-div {position: absolute;
+            margin-top: 50px;
+            width: 100%;}
+
