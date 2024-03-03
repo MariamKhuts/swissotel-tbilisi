@@ -2,16 +2,21 @@
 @media (max-width:1024px) {
     .header-div {width: 100%;} 
     .logo-swiss {width: 100%;}
+    .right-div {margin-left: 200px;}
     }
+    
 @media (max-width:758px) {
         .header-div {width: 100%;}
         .logo-swiss {width: 100%;}
+        .right-div {margin-left: 100px;}
           }
 @media (max-width:480px) {
        .header-div {width: 100%;} 
        .logo-swiss {width: 100%;} 
        .nav-list {display: none;}
        .title-div h1 {font-size:20px;}
+       .footer-div { margin-top: 200px;
+        flex-direction: column-reverse;}
             }
 @media (max-width:320px) {
         .header-div {width: 90%;
@@ -27,8 +32,15 @@
          .title-div h3 {font-size: 20px;}           
          .main-text {font-size: 15px;}  
         .room-photos {display: block;
-        width: 100%;}  
-                
+                     width: 100%;}  
+          .footer-div {width: 100%;}
+          .foot-logo {width: 100%;}
+          .footer-div { margin-top: 150px;
+            flex-direction: column-reverse;
+          row-gap: 20px;}
+          .right-div {display: flex;
+                      margin: 0 auto;
+                      font-size: 15px;}
          }
          
         

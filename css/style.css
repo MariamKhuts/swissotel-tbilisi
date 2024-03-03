@@ -1,12 +1,16 @@
 
 .header-div {display: flex;
             background-color:ffffff;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             border: 1px;
             border-style: solid;
             
         }
+.burger {position: absolute;
+         font-size: 30px;
+         margin-left: 1200px;
+          }
 .list {display: flex;
        column-gap:20px;
        text-align: center;
@@ -21,15 +25,16 @@
               background-color: red;
             }
 header { position: fixed;
-         z-index: 10;
+         z-index: 50;
          width: 100%;
          top: 0;
+         position: relative;
          background-color: white;
         }
 .title-div { text-align: center;
              align-items: center;
              margin-top: 110px;
-             max-width: 1140px;
+             
              }
 .title-div h1 {margin-bottom: 30px;
               text-align: center;
@@ -37,10 +42,9 @@ header { position: fixed;
               font-size: 60px;}
 .title-div span {color: red;}
 .title-div h3 { font-size: 50px;
-        text-align: center;
-        align-items: center;
-        ;
-}
+                text-align: center;
+                align-items: center;
+               }
 .main-text-div {max-width: 740px;
                 margin-top: 60px;
                 align-items: center;
@@ -82,25 +86,105 @@ header { position: fixed;
 .room-photos {max-width:350px ;
               height: 250px;
               border-radius: 5%;
+              display: block;
             }
 .type h4 { margin-top: 30px;
            font-family: "Dosis", sans-serif;
            font-size: 30px;
          }
+.type p   {margin-top: 30px;
+           font-family: "Dosis", sans-serif;
+           font-size: 15px;  }
 .room-details {height: 50px;
-              max-width: fit-content;
-              background-color:burlywood;
-              margin-left: 120px;
-              margin-top: 50px;
-              align-items: center;
-              display: flex;
-              color: black;
-              justify-content: center;
-              border-radius: 15%;
+               max-width: fit-content;
+               background-color:burlywood;
+               margin-left: 120px;
+               margin-top: 50px;
+               align-items: center;
+               display: flex;
+               color: black;
+               justify-content: center;
+               border-radius: 10%;
         }
+.room-details a { color: black;
+                 font-size: 14px;}
 .type h5:hover { font-size: 16px;
                   transform: scale(1);
                   background-color: white;
                   color: black;
                   }
-.bed-style { margin-top: 20px;}
+.bed-style { margin-top: 20px;
+           }
+
+.join-all { width: 100%;
+            background-color: beige;
+            display: flex;
+            margin-top: 30px;
+            padding: 50px;}
+.all-text h2 { font-size: 20px;
+               margin-bottom: 30px;
+               font-family: "Dosis", sans-serif;
+              }
+.all-text  p { font-family: "Dosis", sans-serif;
+               font-size: 15px;
+               color: grey;
+                font-weight: 700;}
+.all-form  { flex-wrap: wrap;
+             max-width: 700px;
+             align-items: left;
+             text-align: left;
+             row-gap: 15px;}
+ 
+
+
+
+
+
+
+
+
+.footer-div {width: 100%;
+             margin-top: 50px;
+             height: 250px;
+             margin: 0 auto;
+             background-color: azure;
+             display: flex;
+             padding: 50px;
+             }
+.left-div p { font-size: 16px;
+              color: grey;
+              font-weight: 300;
+              row-gap: 20px;
+              }
+.left-div a {font-style: bold;
+              color: black; 
+             }
+.city {margin-top: 15px;
+      margin-bottom: 15px;
+}
+.country  {margin-top: 15px;
+           margin-bottom: 15px;
+}
+.link-site {margin-top: 15px;
+}
+.right-div {margin-top: 50px;
+            margin-left: 550px;
+             }
+.right-div p {margin-top: 15px;
+             font-style: bold;
+              color: #707070;
+              font-weight: 500px;
+            }
+.right-div a  :hover { transform: scale(2);
+                     background-color: white;
+                     margin-bottom: 10px;
+                }
+
+.soc-icons {font-size: 50px;
+            color: grey;
+             }
+.fa-instagram {margin-left: 17px;
+               margin-right: 17px;
+              }
+footer {margin-top: 40px;
+         }
