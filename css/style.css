@@ -17,6 +17,8 @@
 .logo-swiss {width: 100%;
             }
     a:hover { font-size: 20px;
+          text-decoration: underline;
+          background-color: red;
             }
 header { position: fixed;
         z-index: 10;
@@ -31,9 +33,14 @@ header { position: fixed;
              
              }
 .title-div h1 {margin-bottom: 30px;
+              text-align: center;
+              align-items: center;             
               font-size: 60px;}
 .title-div span {color: red;}
 .title-div h3 { font-size: 50px;
+        text-align: center;
+        align-items: center;
+        ;
 }
 .main-text-div {max-width: 740px;
                 margin-top: 60px;
@@ -54,5 +61,6 @@ header { position: fixed;
           }
 .image-div {position: absolute;
             margin-top: 50px;
-            width: 100%;}
+            width: 100%;
+        padding: auto;}
 

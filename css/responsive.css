@@ -11,18 +11,21 @@
        .header-div {width: 100%;} 
        .logo-swiss {width: 100%;} 
        .nav-list {display: none;}
+       .title-div h1 {font-size:20px;}
             }
 @media (max-width:320px) {
         .header-div {width: 90%;
-        margin:auto;}
+                     margin:auto;}
         .logo-swiss {width: 100%;}
         .nav-list {display: none;}
-         .title-div   {text-align: center;
-                       align-items: center;
-                       width: 100%;
+        .title-div   {text-align: center;
+                      align-items: center;
+                      width: 100%;
                       } 
-          h1 {margin: o auto;}
-         .title-div h3 {font-size: 20px;}  
+        .title-div h1 {margin: o auto;
+                       font-size: 30px;}
+         .title-div h3 {font-size: 20px;}           
+         .main-text {font-size: 15px;}    
                 }
          
         
