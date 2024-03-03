@@ -17,20 +17,19 @@
 .logo-swiss {width: 100%;
             }
     a:hover { font-size: 20px;
-          text-decoration: underline;
-          background-color: red;
+              text-decoration: underline;
+              background-color: red;
             }
 header { position: fixed;
-        z-index: 10;
-        width: 100%;
-        top: 0;
-        background-color: white;
+         z-index: 10;
+         width: 100%;
+         top: 0;
+         background-color: white;
         }
 .title-div { text-align: center;
              align-items: center;
              margin-top: 110px;
              max-width: 1140px;
-             
              }
 .title-div h1 {margin-bottom: 30px;
               text-align: center;
@@ -52,15 +51,56 @@ header { position: fixed;
                 border-radius: 10%;   
                 ;            
                }
- .main-photo {width: 100%;      
+.main-photo {width: 100%;      
              }
-.main-text {font-size: 20px;
-            font-family: "Open Sans", sans-serif;
-            color: black;
-            
+.main-text {font-size: 21px;
+            font-family: "Dosis", sans-serif;
+            color: black;  
           }
 .image-div {position: absolute;
             margin-top: 50px;
             width: 100%;
-        padding: auto;}
-
+            padding: auto;
+        }
+.room-types {width: auto;
+            flex-wrap: wrap;
+            margin-top: 550px;
+            }
+.type {    max-width: 350px;
+           height: 500px ;
+           width: 100%;
+           border: 1px solid #707070;
+           border-radius: 5%;
+           text-align: center;
+        }
+.category {display: flex;
+           column-gap: 50px;
+           row-gap: 30px;
+           justify-content: center;
+           align-items: center;
+        }
+.room-photos {max-width:350px ;
+              height: 250px;
+              border-radius: 5%;
+            }
+.type h4 { margin-top: 30px;
+           font-family: "Dosis", sans-serif;
+           font-size: 30px;
+         }
+.room-details {height: 50px;
+              max-width: fit-content;
+              background-color:burlywood;
+              margin-left: 120px;
+              margin-top: 50px;
+              align-items: center;
+              display: flex;
+              color: black;
+              justify-content: center;
+              border-radius: 15%;
+        }
+.type h5:hover { font-size: 16px;
+                  transform: scale(1);
+                  background-color: white;
+                  color: black;
+                  }
+.bed-style { margin-top: 20px;}

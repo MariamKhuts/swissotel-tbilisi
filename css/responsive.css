@@ -25,7 +25,10 @@
         .title-div h1 {margin: o auto;
                        font-size: 30px;}
          .title-div h3 {font-size: 20px;}           
-         .main-text {font-size: 15px;}    
-                }
+         .main-text {font-size: 15px;}  
+        .room-photos {display: block;
+        width: 100%;}  
+                
+         }
          
         
