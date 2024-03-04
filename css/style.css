@@ -73,7 +73,7 @@ header { position: fixed;
         }
 .room-types {width: auto;
             flex-wrap: wrap;
-            margin-top: 750px;
+            margin-top: 850px;
             }
 .type {    max-width: 350px;
            height: 500px ;
