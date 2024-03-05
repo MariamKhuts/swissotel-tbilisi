@@ -65,10 +65,10 @@ header { position: fixed;
                          
                }
 .swiss-text {margin-bottom: 20px;
-            font-size: 21px;
-            font-family: "Dosis", sans-serif;
-            color: black;  
-            margin-top: 10px;
+             font-size: 21px;
+             font-family: "Dosis", sans-serif;
+             color: black;  
+             margin-top: 10px;
             }
 .main-photo {width: 100%; 
              }
@@ -83,8 +83,8 @@ header { position: fixed;
             align-items: center;
            }
 .room-types {width: auto;
-            flex-wrap: wrap;
-            margin-top: 650px;
+             flex-wrap: wrap;
+             margin-top: 650px;
             }
 .type {    max-width: 350px;
            height: 500px ;
@@ -122,9 +122,10 @@ header { position: fixed;
                color: black;
                justify-content: center;
                border-radius: 10%;
-           }
+              }
 .room-details a { color: black;
-                  font-size: 14px;}
+                  font-size: 14px;
+                }
 .type h5:hover {  font-size: 16px;
                   transform: scale(1);
                   background-color: white;
@@ -148,7 +149,7 @@ header { position: fixed;
               margin: 8px 0;  
               border: none;
               font-family: "Dosis", sans-serif;
-             border-bottom: 2px solid green;
+              border-bottom: 2px solid green;
        }
        input {font-family: "Dosis", sans-serif;}
 
@@ -188,13 +189,12 @@ header { position: fixed;
              margin-left: 200px;
         }
 .footer-div {width: 100%;
-             
              background-color: azure;
              display: flex;
              padding: 50px;
              }
-.foot-logo {margin-left: 235px;
-            width: 100%;
+.foot-logo {margin-left: 335px;
+            
          }
 .left-div p { font-size: 16px;
               color: grey;
@@ -214,7 +214,7 @@ header { position: fixed;
 .link-site {margin-top: 15px;
        }
 .right-div {margin-top: 50px;
-            margin-left: 600px;
+            margin-left: 500px;
              }
 .right-div p {margin-top: 15px;
              font-style: bold;
@@ -317,5 +317,7 @@ header { position: fixed;
         font-size: 20px;}
 .dining-img:hover {transform: scale(2);}
 
-.room-photos:hover {transform: scale(2);}
-
+.room-photos:hover {transform: scale(2);
+                  
+                   
+                   }
