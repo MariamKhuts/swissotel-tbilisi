@@ -35,6 +35,7 @@ header { position: fixed;
          position: relative;
          padding: 15px ;
          background-color: white;
+         
         }
 .title-div { text-align: center;
              align-items: center;
@@ -43,7 +44,7 @@ header { position: fixed;
 .title-div h1 {margin-bottom: 30px;
               text-align: center;
               align-items: center;             
-              font-size: 60px;
+              font-size: 80px;
             }
 .title-div span {color: red;
             }
@@ -58,8 +59,10 @@ header { position: fixed;
                 position: relative;
                 background-color: white;
                 border: 1px;
-                border-radius: 5%;  
-                margin-left: 20% ;           
+                border-style: dotted;
+                border-radius: 2%;  
+                margin-left: 25% ; 
+                         
                }
 .swiss-text {margin-bottom: 20px;
             font-size: 21px;
@@ -129,25 +132,27 @@ header { position: fixed;
                   }
 .bed-style { margin-top: 20px;
            }
-
            /* form */
 
-input[type=text] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        border: none;
-        border-bottom: 2px solid green;
+           input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: none;
+                border-bottom: 2px solid green;
+               }
+     
+         input[type=email] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;  
+              border: none;
+              font-family: "Dosis", sans-serif;
+             border-bottom: 2px solid green;
        }
+       input {font-family: "Dosis", sans-serif;}
 
-       input[type=email] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;  
-        border: none;
-        border-bottom: 2px solid green;
-       }
-
+       label [type=submit] { width: 100px; }
 .form-title { margin-bottom: 20px;
               font-family: "Dosis", sans-serif;
               font-size: 20px;
@@ -155,14 +160,15 @@ input[type=text] {
               }
 .all-logo {max-width: 400px;
            width: 100%;
-          margin-left: 150px;}
-
+           margin-left: 150px;}
+          
 .join-all { width: 100%;
             background-color: beige;
             display: flex;
             margin-top: 40px;
             padding: 50px;
           }
+      
 .all-text h2 { font-size: 20px;
                margin-bottom: 30px;
                font-family: "Dosis", sans-serif;
@@ -180,15 +186,15 @@ input[type=text] {
              text-align:left;
              row-gap: 15px;
              margin-left: 200px;
-
         }
 .footer-div {width: 100%;
-             margin: 0 auto;
+             
              background-color: azure;
              display: flex;
              padding: 50px;
              }
 .foot-logo {margin-left: 235px;
+            width: 100%;
          }
 .left-div p { font-size: 16px;
               color: grey;

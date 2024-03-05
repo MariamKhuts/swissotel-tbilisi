@@ -2,8 +2,15 @@
 @media (max-width:1024px) {
     .header-div {width: 100%;} 
     .logo-swiss {width: 100%;}
-    .right-div {margin-left: 200px;
-    }
+    .right-div {margin-left: 200px;}
+    .main-text-div {margin-top: 100px;
+                   margin-left: 10px;}
+    .image-div {margin-top: 80px;}
+    .room-types {margin-top: 350px;}
+    .footer-div {width: 100%;
+               padding: 50px;}
+    .left-div {max-width: 500px;
+              margin: 0 auto;}
     }  
 @media (max-width:768px) {
         .header-div {width: 100%;}
@@ -25,18 +32,36 @@
        .header-div {width: 100%;} 
        .logo-swiss {width: 100%;} 
        .navlist {display: none;}
-       .title-div h1 {font-size:20px;}
-       .footer-div { margin-top: 200px;             
+       .title-div h1 {font-size:40px;}
+       .footer-div {  
+                     width: 100%;
                      flex-direction: column-reverse;}
-        .burger {display: block;
+     .left-div {max-width: 200px;
+               ;}
+       .left-div p {margin-left: 0;
+                  margin-top: 30px;}
+       .foot-logo {width: 100%;
+                   margin-left: 0px;
+                   margin-top: 30px;
+                    }
+                     .burger {display: block;
                margin-left: 350px;}
-        .navlist {flex-direction: column;
+         .navlist {flex-direction: column;
                   margin-top: 68px;}
            .map-cl {width: 100%;}
-        .room-types {margin-top: 150px;}
-            }
+          .room-types {margin-top: 150px;}
+                  }
+          .join-all {
+                     justify-content: center;
+                      align-items: left
+                ;}
+              .all-logo {max-width: 200px;
+                         width: 100%;
+                         margin-left: auto;}
+              .all-form {margin-left: auto;}
+              .room-photos:hover {transform: scale(1);}
 @media (max-width:320px) {
-         .header-div {width: 100%;}            
+       .header-div {width: 100%;}            
         .logo-swiss {width: 100%;}
         .navlist {display: none;}
         .title-div   {text-align: center;
@@ -45,11 +70,11 @@
                       } 
         .title-div h1 {margin: o auto;
                        font-size: 30px;}
-        .title-div h3 {font-size: 20px;}           
+        .title-div h3 {font-size: 5px;
+                   }           
         .main-text {font-size: 15px;}  
         .room-photos {display: block;
-                     width: 100%;}  
-        .footer-div {width: 100%;}
+                      }  
         .foot-logo {width: 100%;}
         .footer-div { margin-top: 150px;
                       flex-direction: column-reverse;
@@ -58,11 +83,11 @@
         .right-div {  display: flex;
                       margin: 0 auto;
                       font-size: 10px;}
-            .burger {display: block;
+       .burger {display: block;
                     margin-left: 200px;
                     font-size: 30px;}
-             .navlist {display: none;}
-             .map-cl{width: 100%;}
+       .navlist {display: none;}
+       .map-cl{width: 100%;}
          }
          
         
