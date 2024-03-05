@@ -36,7 +36,7 @@
        .footer-div {  
                      width: 100%;
                      flex-direction: column-reverse;}
-     .left-div {max-width: 200px;
+       .left-div {max-width: 200px;
                ;}
        .left-div p {margin-left: 0;
                   margin-top: 30px;}
@@ -44,50 +44,51 @@
                    margin-left: 0px;
                    margin-top: 30px;
                     }
-                     .burger {display: block;
-               margin-left: 350px;}
-         .navlist {flex-direction: column;
-                  margin-top: 68px;}
-           .map-cl {width: 100%;}
-          .room-types {margin-top: 150px;}
-                  }
-          .join-all {
-                     justify-content: center;
-                      align-items: left
-                ;}
-              .all-logo {max-width: 200px;
-                         width: 100%;
-                         margin-left: auto;}
-              .all-form {margin-left: auto;}
-              .room-photos:hover {transform: scale(1);}
-@media (max-width:320px) {
-       .header-div {width: 100%;}            
-        .logo-swiss {width: 100%;}
-        .navlist {display: none;}
-        .title-div   {text-align: center;
-                      align-items: center;
-                      width: 100%;
-                      } 
-        .title-div h1 {margin: o auto;
-                       font-size: 30px;}
-        .title-div h3 {font-size: 5px;
-                   }           
-        .main-text {font-size: 15px;}  
-        .room-photos {display: block;
-                      }  
-        .foot-logo {width: 100%;}
-        .footer-div { margin-top: 150px;
-                      flex-direction: column-reverse;
-                      row-gap: 20px;
-                    width: 100%;}
-        .right-div {  display: flex;
-                      margin: 0 auto;
-                      font-size: 10px;}
        .burger {display: block;
-                    margin-left: 200px;
-                    font-size: 30px;}
-       .navlist {display: none;}
-       .map-cl{width: 100%;}
-         }
+               margin-left: 350px;}
+       .navlist {flex-direction: column;
+                  margin-top: 68px;}
+       .map-cl {width: 100%;}
+       .room-types {margin-top: 150px;}
+       .join-all 
+                  align-items: center ;
+
+                     }
+       .all-logo { max-width: 200px;
+                   width: 100%;
+                   margin-left: auto;
+                        }
+              .all-form {margin-left:auto;
+                     }
+              .room-photos:hover {transform: scale(1);
+                   }
+@media (max-width:320px) { .header-div {width: 100%;}            
+                           .logo-swiss {width: 100%;}
+                           .navlist {display: none;}
+                           .type {}
+                           .title-div   {text-align: center;
+                                         align-items: center;
+                                         width: 100%;
+                                        } 
+                          .title-div h1 {margin: o auto;
+                                         font-size: 30px;}
+                          .title-div h3 {font-size: 20px; }           
+                          .main-text  {font-size: 15px;}  
+                          .room-photos {display:block;
+                                         max-width: 300px;}  
+                          .foot-logo {width: 100%;}
+                          .footer-div { margin-top: 150px;
+                                        flex-direction: column-reverse;
+                                        row-gap: 20px;
+                                   width: 100%;}
+                          .right-div {  display: flex;
+                                       margin: 0 auto;
+                                       font-size: 10px;}
+                          .burger {display: block;
+                                   margin-left: 200px;
+                                   font-size: 30px;}
+                          .navlist {display: none;}
+                          .map-cl{width: 100%;}
+                            }
          
         
