@@ -6,34 +6,21 @@
 */
 
 
-.header-div {display: -webkit-box;display: -ms-flexbox;display: flex;
-        background-color:ffffff;
-        vertical-align: middle;
-        border: 1px;
-        border-style: solid;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-        align-items: center;
-        width: 100%;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-    }
+.navigation-div{display: flex;
+               justify-content: space-between;
+               }
 .burger {
-          font-size: 50px;
-          margin-left: 250px;
-          display: none;
-          width: 100%;
+         top: 40px;
+         right: 15px;
+         font-size: 40px; 
+         color:black;
+         display: none;
+        }
+.nav-ul {display: flex;
+         column-gap: 70px;
+         margin-top: 30px;      
           }
-.list { display: -webkit-box; display: -ms-flexbox; display: flex;
-   -webkit-column-gap:35px;
-      -moz-column-gap:35px;
-        column-gap:35px;
-        text-align: center;
-        font-weight: 500; 
-        vertical-align: middle;
-        margin-left: 150px;  
-}
-.list li {color: black;
+.nav-ul li {color: black;
           font-weight: 500; 
           font-size: 20px;
          }
@@ -44,12 +31,12 @@ a:hover { font-size: 20px;
           text-decoration: underline;
           background-color: red;
         }
-header { position: fixed;
-         z-index: 50;
-         width: 100%;
-         top: 0;
-         padding: 15px ;
-         background-color: white;
+.header-div { position: fixed;
+              z-index: 50;
+              width: 100%;
+              top: 0;
+              padding: 15px ;
+              background-color: white;
    }
 .title-div { text-align: center;
         -webkit-box-align: center;

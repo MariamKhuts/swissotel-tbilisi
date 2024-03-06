@@ -1,9 +1,13 @@
 // burger
 
-let navlistElement = document.getElementById ('navbar');
-let burgerElement =document.getElementById ('burgerbar');
 
 
+let navigationElement=document.getElementById ('navBar');
+let burgerElement=document.getElementById ('burgerBar');
 
-burgerElement.addEventListener ('click',function() { 
- navlistElement.classlist.toggle('activenav'); } )
+
+   burgerElement.addEventListener("click", function () {
+    
+   navigationElement.classList.toggle("activeNav"); 
+
+     });
