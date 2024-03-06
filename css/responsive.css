@@ -58,14 +58,17 @@
               .title-div h3 {font-size: 20px; }   
              .main-text-div {margin-top: 350px;}
              .room-photos  {display:block;
-                            max-width: 320px;
                             width: 100%;} 
              .stay-p{font-size: 10px;}
              .join-all {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
                        text-align: center;}
              .all-form {margin-left: 20px;}
              .all-logo {margin-left: 20px;}
-             
+             .location-title-div h2  {width: 100%;
+                                     font-size: 40px;}
+              .location-title-div h3  {width: 100%;
+                                          font-size: 40px;}
+                  
              .foot-logo{ width: 200px; }
              .stay-p {font-size: 10px;}
              .footer-div { width: 90%;
@@ -82,7 +85,6 @@
                                font-size: 30px;}
                .title-div h3 {font-size: 20px; }  
                .room-photos  {display:block;
-                              max-width: 290px;
                              width: 100%;}  
                .all-text  {margin-left: 0px;
                            margin-right: 25px;}
