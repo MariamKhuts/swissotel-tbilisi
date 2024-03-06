@@ -11,3 +11,11 @@ let burgerElement=document.getElementById ('burgerBar');
    navigationElement.classList.toggle("activeNav"); 
 
      });
+
+
+let buttonElement=document.getElementById ('donate-btn');
+
+buttonElement.addEventListener("click" ,function () {
+
+  alert ("Donation is not available in your region :(")
+} )
