@@ -66,19 +66,25 @@ a:hover { font-size: 20px;
                  -ms-flex-align: center;
                  align-items: center;
 }
-.main-text-div {max-width: 1000px;
-                margin-top: 15%;
-               -webkit-box-align: center;
-               -ms-flex-align: center;
-               align-items: center;
-               text-align: center;
-               position: relative;
-               background-color: white;
-               border: 1px;
-               border-style: dotted;
-               border-radius: 2%;  
-               margin-left: 25% ;            
-                }
+
+
+ .main-text-div {
+                 width: 100%;
+                 margin-top: 100px;
+                 -webkit-box-align: center;
+                 -ms-flex-align: center;
+                 align-items: center;
+                 text-align: center;
+                 position: relative;
+                 background-color: white;
+                 border: 1px;
+                 border-style: dotted;
+                 border-radius: 2%;               
+                 -webkit-border-radius: 2%;
+                 -moz-border-radius: 2%;
+                 -ms-border-radius: 2%;
+                 -o-border-radius: 2%;            
+    }
 .swiss-text {margin-bottom: 20px;
              font-size: 21px;
              font-family: "Dosis", sans-serif;
