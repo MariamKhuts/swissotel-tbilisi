@@ -1,103 +1,156 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
 
-@media (max-width:1024px) { 
-       .header-div { 
-                     width: 100%;
-                    }
-       .nav-ul li { font-size: 16px;
-                    width: 100%; }           
-       .right-div {margin-left: 200px;}
-}
+@media (max-width:1024px) { .header-div { width: 100%;
+                                         }
+                            .nav-ul li { font-size: 16px;
+                                         width: 100%;
+                                        }           
+                            .right-div {margin-left: 200px;
+                                       }
+                           }
                     
-@media (max-width:768px) { 
-       .burger {display: block;}
-       .navigation {display: none;}  
-       .navigation-div {flex-direction: column;}
-       .nav-ul {flex-direction: column;
-                   align-items: center;}
-       .navigation.activeNav {display: block;
-                             margin-bottom: 35px;}
-       .image-div {margin-top: 40px ;}
-       .title-div h1  {margin: o auto;
-                      font-size: 40px;}
-       .title-div h3 {font-size: 30px; }  
-       .main-text-div {margin-left: 0;
-                       margin-top: 500px;}
-       .room-types {margin-top: 100px;}
-       .right-div {margin-left: 100px;}
-       .stay-p{font-size: 10px;}
-       .footer-div { width: 100%;
-              flex-direction: column-reverse;
-              }
-       .all-logo {margin-left: 0px;}
-       .all-form {margin-left: 80px;}
-              .join-all {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
-                     text-align: center;}
-       .dining-blocks {flex-direction: column;
-                       justify-content: center;
-                       align-items: center;
-                      row-gap: 30px;} }
-    @media (max-width:480px) {
-            
-             .burger {display: block;
-                      display: contents;  
-                     }
-             .fa-bars {display:block;
-                       }
-             .sw-logo {width: 200px;
-                       margin-left: 20px;
+@media (max-width:768px) {  .burger {display: block;
+                                    }
+                            .img-logo {max-width: 300px;
+                                      width: 100%;
+                                      }
+                            .navigation {display: none;
+                                        }  
+                            .navigation-div {-webkit-box-orient: vertical;
+                                             -webkit-box-direction: normal;
+                                             -ms-flex-direction: column;
+                                             flex-direction: column;
+                                             }
+                            .nav-ul { -webkit-box-orient: vertical;
+                                      -webkit-box-direction: normal;
+                                      -ms-flex-direction: column;
+                                      flex-direction: column;
+                                      -webkit-box-align: center;
+                                      -ms-flex-align: center;
+                                      align-items: center;
+                                   }
+                            .navigation.activeNav {display: block;
+                                                   margin-bottom: 35px;
+                                                     }
+                            .image-div {margin-top: 40px ;
+                                      }
+                            .title-div h1  {margin: o auto;
+                                            font-size: 40px;
+                                           }
+                            .title-div h3 {font-size: 30px;   
+                                           }
+                            .room-types {margin-top: 100px;
+                                        }
+                            .stay-p{font-size: 10px;
+                                      }
+                            .footer-div { width: 100%;
+                              -webkit-box-orient: vertical;      
+                              -webkit-box-direction: reverse;              
+                              -ms-flex-direction: column-reverse;             
+                              flex-direction: column-reverse;
+                             }
+                            .right-div {margin: 0 auto;}
+                            .all-logo {margin-left:auto;}
+                            .all-form {margin-left: auto;}
+                           .join-all {-webkit-box-orient: vertical;
+                                      -webkit-box-direction: normal;
+                                      -ms-flex-direction: column;flex-direction: column;
+                                      text-align: center;}
+       .dining-blocks {-webkit-box-orient: vertical;
+                       -webkit-box-direction: normal;
+                       -ms-flex-direction: column;
+                       flex-direction: column;
+                       -webkit-box-pack: center;
+                       -ms-flex-pack: center;
+                        justify-content: center;
+                       -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        row-gap: 30px;
+                        }
+       .dining-img:hover { -webkit-transform: scale(1);
+                           -ms-transform: scale(1) ;
+                            transform: scale(1) ;
+                          } 
+       .fa-bars {display:block;
+                    }
+       .sw-logo {width: 200px;
+                 margin-left: 20px;
                   }
-              .sos-title { font-size: 28px;}
-              .title-div h1  {margin: o auto;
-                     font-size: 30px;}
-              .title-div h3 {font-size: 20px; }   
-             .main-text-div {margin-top: 350px;}
-             .room-photos  {display:block;
-                            width: 100%;} 
-             .stay-p{font-size: 10px;}
-             .join-all {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
-                       text-align: center;}
-             .all-form {margin-left: 20px;}
-             .all-logo {margin-left: 20px;}
-             .location-title-div h2  {width: 100%;
-                                     font-size: 40px;}
-              .location-title-div h3  {width: 100%;
-                                          font-size: 40px;}
-                  
-             .foot-logo{ width: 200px; }
-             .stay-p {font-size: 10px;}
-             .footer-div { width: 90%;
-                           -webkit-box-orient: vertical;
-                           -webkit-box-direction: reverse;
-                               -ms-flex-direction: column-reverse;
-                                   flex-direction: column-reverse;}
-              .room-photos:hover {-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);
-    } }
+       .sos-title { font-size: 28px;
+                  }
+       .title-div h1  {margin: o auto;
+                       font-size: 30px;
+                      }
+       .title-div h3 {font-size: 20px;
+                      }   
+       .main-text-div {margin-top: 350px;}
+       .room-photos   {display:block;
+                     width: 100%;}    
+       .right-div {margin: 0 auto;
+                  }
+       .stay-p{font-size: 10px;}
+       .join-all {-webkit-box-orient: vertical;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  text-align: center;
+                 }
+       .all-form {margin-left: 20px;}
+       .all-logo {margin: 0 auto;}
+       .location-title-div h2  {width: 100%;
+                                font-size: 40px;
+                               }
+       .location-title-div h3  {width: 100%;
+                                font-size: 40px;
+                               }               
+       .foot-logo{ width: 200px; 
+                 }
+       .stay-p {font-size: 10px;
+               }
+       .footer-div { width: 100%;
+                     -webkit-box-orient: vertical;
+                     -webkit-box-direction: reverse;
+                     -ms-flex-direction: column-reverse;
+                     flex-direction: column-reverse;}
+       .room-photos:hover {-webkit-transform: scale(1);
+                           -ms-transform: scale(1);
+                            transform: scale(1);
+                           } }
     @media (max-width:320px) { 
                .sw-logo   {margin: 0 auto;
                            width: 200px;}
                .title-div h1  {margin: o auto;
-                               font-size: 30px;}
-               .title-div h3 {font-size: 20px; }  
+                               font-size: 30px;
+                            }
+               .title-div h3 {font-size: 20px;
+                            }  
                .room-photos  {display:block;
-                             width: 100%;}  
+                             width: 100%;
+                            }  
                .all-text  {margin-left: 0px;
-                           margin-right: 25px;}
-               .join-all  {padding: 15px;}
-               .sos-title { font-size: 28px;}
-               .right-div { display: -webkit-box; display: -ms-flexbox; display: flex;
-                             margin: 0 auto;
-                             font-size: 10px;}
+                           margin-right: 25px;
+                          }
+               .join-all  {padding: 15px;
+                          }
+               .sos-title { font-size: 28px;
+                          }
+               .right-div { display: -webkit-box; 
+                            display: -ms-flexbox; 
+                            display: flex;
+                            margin: 0 auto;
+                            font-size: 10px;
+                          }
                .foot-logo { width: 100px;
-                            margin-left: 0;}
+                            margin-left: 0;
+                             }
                .stay-p{font-size: 10px;}
-               .room-photos:hover {-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
-               .room-details {margin-left: 100px;}
+               .room-photos:hover {-webkit-transform: scale(1);
+                                   -ms-transform: scale(1);
+                                   transform: scale(1);}
+               .room-details {margin: 0 auto;
+                             }
+               .bed-style { margin-bottom: 30px;}
                .header-div {height: 100px;
+
                            }
                      }
