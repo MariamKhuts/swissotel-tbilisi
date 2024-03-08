@@ -108,17 +108,15 @@ a:hover { font-size: 20px;
            -ms-flex-align: center;
             align-items: center;
   }
-.room-types {width: auto;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-top: 650px
-}
+
 .type { max-width: 350px;
         height: 500px ;
         width: 100%;
         border: 1px solid #707070;
         border-radius: 5%;
         text-align: center;
+        -webkit-box-shadow:5px 5px ;
+        box-shadow:5px 5px ;
 }
 .category {display: -webkit-box;
            display: -ms-flexbox;
@@ -133,15 +131,16 @@ a:hover { font-size: 20px;
            -webkit-box-align: center;
            -ms-flex-align: center;
             align-items: center;
+            width: auto;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-top: 650px
  }
 .room-photos {max-width:350px ;
               height: 250px;
               border-radius: 5%;
               display: block;
     }
-.type {-webkit-box-shadow:5px 5px ;
-        box-shadow:5px 5px ;
-         }
 .block {-webkit-box-shadow:5px 5px ;
         box-shadow:5px 5px ;
           }
@@ -149,9 +148,10 @@ a:hover { font-size: 20px;
            font-family: "Dosis", sans-serif;
            font-size: 30px;
 }
-.type p   {margin-top: 30px;
-          font-family: "Dosis", sans-serif;
-          font-size: 15px;       
+.bed-style{margin-top: 30px;
+           font-family: "Dosis", sans-serif;
+           font-size: 15px;
+           margin-bottom: 30px;       
 }
 .room-details {height: 50px;
                max-width: -webkit-fit-content;
@@ -197,11 +197,12 @@ input[type=email] {
   }
 input {font-family: "Dosis", sans-serif;}
 label [type=submit] { width: 100px; }
-    .form-title { margin-bottom: 20px;
-                  font-family: "Dosis", sans-serif;
-                  font-size: 20px;
-                  font-weight: 700;
-        }
+
+.form-title { margin-bottom: 20px;
+             font-family: "Dosis", sans-serif;
+             font-size: 20px;
+             font-weight: 700;
+                 }
 .all-logo {max-width: 400px;
            width: 100%;
            margin-left: 150px;
